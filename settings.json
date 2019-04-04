@@ -15,7 +15,7 @@
   "init_test_data":true,
   "admin":
   {
-    "email":"admin@mooqita.org",
+    "email":"jgrimaldo@unomaha.edu",
     "password":"whatever"
   }
 }
