@@ -10,7 +10,7 @@ name_from_url = (url, name_only = false) ->
 _upload_dropbox_file = (collection, item_id, field, value, type)->
 	collection_name = get_collection_name collection
 
-	access_token = process.env.DROP_BOX_ACCESS_TOKEN
+	access_token = process.env.PTNU6-YNfPAAAAAAAAAFsunNQHUeLXbHTFxBJOCRt87DbvG7TcerkYUksUVU7z5d
 	url = "https://content.dropboxapi.com/2/files/upload"
 	path = "/" + collection_name + "/" + item_id + "/" + field + ".data"
 	origin = name_from_url process.env.ROOT_URL, true
@@ -44,7 +44,7 @@ _upload_dropbox_file = (collection, item_id, field, value, type)->
 	check field, String
 
 	collection_name = get_collection_name collection
-	access_token = process.env.DROP_BOX_ACCESS_TOKEN
+	access_token = process.env.PTNU6-YNfPAAAAAAAAAFsunNQHUeLXbHTFxBJOCRt87DbvG7TcerkYUksUVU7z5d
 	url = "https://content.dropboxapi.com/2/files/download"
 	path = "/" + collection_name + "/" + item_id + "/" + field + ".data"
 	origin = name_from_url process.env.ROOT_URL, true
