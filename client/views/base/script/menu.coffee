@@ -28,8 +28,11 @@ Template.mooqita_menu.helpers
 		 items.push({name: "Solutions", href: build_url("solutions")})
 		 items.push({name: "Reviews", href: build_url("reviews")})
 		 items.push({name: "Portfolio", href: build_url("portfolio")})
-		 items.push({name: "New Tab", href: build_url("portfolio")})
-
+		 items.push({name: "My Courses", href: build_url("learner_education")})
+		 items.push({name: "Computational Thinking", href: build_url("comp_thinking_course")})
+		 items.push({name: "Python", href: build_url("python_course")})
+		 items.push({name: "COBOL", href: build_url("cobol_course")})
+			
 		return items
 
 	num_new_messages: () ->
